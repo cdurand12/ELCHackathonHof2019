@@ -29,20 +29,12 @@
         function test() {
             alert("Start of Function");
 
-            //var card = "<div class=row> <div class=card style=width: 18rem;><img src=... class=card-img-top alt=...><div class=card-body><h5 class=card-title>Card title</h5><p class=card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</p><a href=# class=btn btn-primary>Go somewhere</a></div></div></div>";
-            //alert("step 1");
+            var rowCount = 3;
 
-            //document.getElementById("myDIV").classList.add("card");
+            var container = document.getElementById("row1");
 
+            for (var i = 1; i < rowCount; i++) {
 
-            //alert("step 2")
-            //card.classList.add("card")
-            //para.appendChild(node);
-            //var element = document.getElementById("test1");
-            //element.appendChild(cardContainer);
-            //element.appendChild(card);
-            var container = document.getElementById("container");
-            for (var i = 1; i <= 9; i++) {
                 var el = document.createElement("div");
                 el.className = "card";
                 el.id = "card" + i;
@@ -56,9 +48,6 @@
 </head>
 
 <body>
-    <div id="container">
-
-    </div>
     <!-- Navigation -->
     <nav class="navbar navbar-light bg-light static-top">
         <div class="container">
@@ -106,6 +95,46 @@
     <section class="features-icons bg-light text-center">
         <div class="container">
 
+            <div id="row1" class=row>
+                <div class="col-lg-4" id=11>
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4" id=12>
+                    <div class="card">
+
+                    </div>
+                </div>
+                <div class="col-lg-4" id=13>
+
+                </div>
+            </div>
+
+            <div id="row2" class="row">
+                <div class="col-lg-4" id=21>
+
+                </div>
+                <div class="col-lg-4" id=22>
+
+                </div>
+
+            </div>
+
+            <div id="row3" class="row">
+                <div class="col-lg-4">
+
+                </div>
+            </div>
 
 
             <!-- JavaScript  -->
@@ -266,6 +295,12 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
 
 </body>
 
