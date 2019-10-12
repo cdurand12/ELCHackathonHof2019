@@ -36,7 +36,21 @@
             container.append(el);
         }
 
-
+    function searchSel(n){
+        if (n == 1) {
+            jQuery(".card_lip").show();
+            jQuery(".card_fon").hide();
+            jQuery(".card_eye").hide();
+         }else if (n == 1) {
+            jQuery(".card_lip").hide();
+            jQuery(".card_fon").show();
+            jQuery(".card_eye").hide();
+         }else {
+            jQuery(".card_lip").hide();
+            jQuery(".card_fon").hide();
+            jQuery(".card_eye").show();
+         }
+    }
     </script>
 
 </head>
@@ -73,7 +87,7 @@
                     <form>
                         <div class="form-row">
                             <div class="col-12 col-md-9 mb-2 mb-md-0">
-                                <input type="email" class="form-control form-control-lg"
+                                <input id="searchELC" type="text" class="form-control form-control-lg"
                                     placeholder="Search for a Product...">
                             </div>
                             <div class="col-12 col-md-3">
@@ -82,9 +96,9 @@
                             </div>
                         </div>
                         <div class="brn-group" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-secondary">Lip Stick</button>
-                            <button type="button" class="btn btn-secondary">Foundation</button>
-                            <button type="button" class="btn btn-secondary">Eye Shadow</button>
+                            <button id="btn_lip" type="button" class="btn btn-secondary" onclick="searchSel(1)">Lip Stick</button>
+                            <button id="btn_fon"  type="button" class="btn btn-secondary" onclick="searchSel(2)">Foundation</button>
+                            <button  id="btn_eye" type="button" class="btn btn-secondary" onclick="searchSel(3)">Eye Shadow</button>
                         </div>
                     </form>
                 </div>

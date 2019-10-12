@@ -8,6 +8,7 @@ import os
 def processPostData(post=["No Post Data"]):#Print all post data
     for field in post:
         print(field)
+
 class PostHandler(SimpleHTTPRequestHandler):
     def do_POST(self):
         print("Gathered Post Data:")
@@ -29,8 +30,8 @@ class PostHandler(SimpleHTTPRequestHandler):
         self.end_headers()
         # Send the html message
 
-        os.chdir("../sql_java/")
-        output = subprocess.check_output("java query", shell=True)
+        os.chdir("../Filter/")
+        output = subprocess.check_output("java Query", shell=True)
         # print(output.decode("utf-8"))
         # self.wfile.write('Hello World'.encode())
         self.wfile.write(output)
