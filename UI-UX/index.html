@@ -27,24 +27,17 @@
         var stuff = "<h1> TEST1 </h1>";
 
         function test() {
-            //var para = document.createElement("div")
-            //var para = document.createElement("p");
-            //var node = document.createTextNode("Hello");
-            //var cardContainer = document.createElement("div");
+            alert("Start of Function");
 
-            //var card = "<div class=row> <div class=card style=width: 18rem;><img src=... class=card-img-top alt=...><div class=card-body><h5 class=card-title>Card title</h5><p class=card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</p><a href=# class=btn btn-primary>Go somewhere</a></div></div></div>";
-            alert("step 1");
-
-            document.getElementById("myDIV").classList.add("card");
+            var card = document.getElementById("myDIV");
+            card.classList.add("card");
+            var cardBody = "<img src='...' class='card-body'>"
+            card.innerHTML = cardBody;
 
 
-            alert("step 2")
-            //card.classList.add("card")
-            //para.appendChild(node);
-            //var element = document.getElementById("test1");
-            //element.appendChild(cardContainer);
-            //element.appendChild(card);
 
+
+            alert("End of Function");
         }
 
     </script>
