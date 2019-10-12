@@ -25,7 +25,9 @@ For example to call 'describe products', pass query({"describe", "products");
  */
 public static void query(String[] q) throws Exception {
     //https://stackoverflow.com/questions/5711084/java-runtime-getruntime-getting-output-from-executing-a-command-line-program
-    String[] runtimeArgs = new String[q.length + 5 + 1];
+    //https://stackoverflow.com/questions/5711084/java-runtime-getruntime-getting-output-from-executing-a-command-line-program
+
+    String[] runtimeArgs = new String[q.length + 8];
     runtimeArgs[0] = "C:\\tools\\mysql\\current\\bin\\mysql.exe";
     runtimeArgs[1] = "-u";
     runtimeArgs[2] = "root";
@@ -34,11 +36,11 @@ public static void query(String[] q) throws Exception {
     runtimeArgs[5] = "\"use";
     runtimeArgs[6] = "elcdb;";
 
-    
+
 
     for (int i = 0; i < q.length; i++) {
         System.out.println(q[i]);
-        runtimeArgs[6 + i] = q[i];
+        runtimeArgs[7 + i] = q[i];
     }
     runtimeArgs[runtimeArgs.length - 1] = "\"";
 
@@ -47,7 +49,10 @@ public static void query(String[] q) throws Exception {
     Process proc = runtime.exec(runtimeArgs);
 
     BufferedReader output = new BufferedReader(new InputStreamReader(proc.getInputStream()));
+    //output.lines().forEach(System.out::println);
+
     BufferedReader err = new BufferedReader(new InputStreamReader(proc.getErrorStream()));
+    //err.lines().forEach(System.out::println);
 
 
     String temp = "";
