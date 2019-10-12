@@ -1,0 +1,2 @@
+Aug 12 08:22:41 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=ron.dias@outlook.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
+Sep 29 21:58:56 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=ron.dias@outlook.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL

@@ -1,0 +1,241 @@
+2019-08-12  8:13:57 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-12  8:13:57 0 [Note] InnoDB: Uses event mutexes
+2019-08-12  8:13:57 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-08-12  8:13:57 0 [Note] InnoDB: Number of pools: 1
+2019-08-12  8:13:57 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-08-12  8:13:57 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2019-08-12  8:13:57 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-12  8:13:58 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-08-12  8:13:58 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-08-12  8:13:58 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-08-12  8:13:58 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-08-12  8:13:58 0 [Note] InnoDB: Waiting for purge to start
+2019-08-12  8:13:58 0 [Note] InnoDB: 10.3.17 started; log sequence number 1799995; transaction id 201
+2019-08-12  8:13:58 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ib_buffer_pool
+2019-08-12  8:13:58 0 [Note] InnoDB: Cannot open 'C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2019-08-12  8:13:58 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-08-12  8:13:58 0 [Note] Server socket created on IP: '127.0.0.1'.
+2019-08-12  8:13:58 0 [Note] Reading of all Master_info entries succeeded
+2019-08-12  8:13:58 0 [Note] Added new Master_info '' to hash table
+2019-08-12  8:13:58 0 [Note] C:\Users\Wisdom\Documents\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections.
+Version: '10.3.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-08-12  8:19:16 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-12  8:19:16 0 [Note] InnoDB: Uses event mutexes
+2019-08-12  8:19:16 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-08-12  8:19:16 0 [Note] InnoDB: Number of pools: 1
+2019-08-12  8:19:16 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-08-12  8:19:16 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2019-08-12  8:19:16 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-12  8:19:16 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-08-12  8:19:16 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-08-12  8:19:16 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-08-12  8:19:16 0 [Note] InnoDB: Setting file 'C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-08-12  8:19:16 0 [Note] InnoDB: File 'C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ibtmp1' size is now 12 MB.
+2019-08-12  8:19:16 0 [Note] InnoDB: 10.3.17 started; log sequence number 1799995; transaction id 201
+2019-08-12  8:19:16 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ib_buffer_pool
+2019-08-12  8:19:16 0 [Note] InnoDB: Cannot open 'C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2019-08-12  8:19:16 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-08-12  8:19:16 0 [Note] Server socket created on IP: '127.0.0.1'.
+2019-08-12  8:19:16 0 [ERROR] mysqld_z.exe: Table '.\mysql\user' is marked as crashed and should be repaired
+2019-08-12  8:19:16 0 [Warning] Checking table:   '.\mysql\user'
+2019-08-12  8:19:16 0 [ERROR] mysql.user: 1 client is using or hasn't closed the table properly
+2019-08-12  8:19:16 0 [Note] Reading of all Master_info entries succeeded
+2019-08-12  8:19:16 0 [Note] Added new Master_info '' to hash table
+2019-08-12  8:19:16 0 [Note] C:\Users\Wisdom\Documents\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections.
+Version: '10.3.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-08-12 13:01:29 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-12 13:01:29 0 [Note] InnoDB: Uses event mutexes
+2019-08-12 13:01:29 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-08-12 13:01:29 0 [Note] InnoDB: Number of pools: 1
+2019-08-12 13:01:29 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-08-12 13:01:29 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2019-08-12 13:01:29 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-12 13:01:29 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=3314004
+2019-08-12 13:01:29 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-08-12 13:01:29 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-08-12 13:01:29 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-08-12 13:01:29 0 [Note] InnoDB: Setting file 'C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-08-12 13:01:29 0 [Note] InnoDB: File 'C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ibtmp1' size is now 12 MB.
+2019-08-12 13:01:29 0 [Note] InnoDB: Waiting for purge to start
+2019-08-12 13:01:29 0 [Note] InnoDB: 10.3.17 started; log sequence number 3314013; transaction id 1019
+2019-08-12 13:01:29 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ib_buffer_pool
+2019-08-12 13:01:29 0 [Note] InnoDB: Cannot open 'C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2019-08-12 13:01:29 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-08-12 13:01:29 0 [Note] Server socket created on IP: '127.0.0.1'.
+2019-08-12 13:01:29 0 [ERROR] mysqld_z.exe: Table '.\mysql\user' is marked as crashed and should be repaired
+2019-08-12 13:01:29 0 [Warning] Checking table:   '.\mysql\user'
+2019-08-12 13:01:29 0 [ERROR] mysql.user: 1 client is using or hasn't closed the table properly
+2019-08-12 13:01:29 0 [ERROR] mysqld_z.exe: Table '.\mysql\db' is marked as crashed and should be repaired
+2019-08-12 13:01:29 0 [Warning] Checking table:   '.\mysql\db'
+2019-08-12 13:01:29 0 [ERROR] mysql.db: 1 client is using or hasn't closed the table properly
+2019-08-12 13:01:29 0 [Note] Reading of all Master_info entries succeeded
+2019-08-12 13:01:29 0 [Note] Added new Master_info '' to hash table
+2019-08-12 13:01:29 0 [Note] C:\Users\Wisdom\Documents\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections.
+Version: '10.3.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-08-22 15:13:06 0 [Note] C:\Users\Wisdom\Documents\UniServerZ\core\mysql\bin\mysqld_z.exe (initiated by: root[root] @ localhost [127.0.0.1]): Normal shutdown
+2019-08-22 15:13:06 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-08-22 15:13:06 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-08-22 15:13:06 0 [Note] InnoDB: Starting shutdown...
+2019-08-22 15:13:06 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ib_buffer_pool
+2019-08-22 15:13:06 0 [Note] InnoDB: Instance 0, restricted to 512 pages due to innodb_buf_pool_dump_pct=25
+2019-08-22 15:13:06 0 [Note] InnoDB: Buffer pool(s) dump completed at 190822 15:13:06
+2019-08-22 15:13:07 0 [Note] InnoDB: Shutdown completed; log sequence number 4808389; transaction id 2451
+2019-08-22 15:13:07 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-08-22 15:13:07 0 [Note] C:\Users\Wisdom\Documents\UniServerZ\core\mysql\bin\mysqld_z.exe: Shutdown complete
+
+2019-08-24  8:38:07 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-24  8:38:07 0 [Note] InnoDB: Uses event mutexes
+2019-08-24  8:38:07 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-08-24  8:38:07 0 [Note] InnoDB: Number of pools: 1
+2019-08-24  8:38:07 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-08-24  8:38:07 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2019-08-24  8:38:07 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-24  8:38:07 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-08-24  8:38:07 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-08-24  8:38:07 0 [Note] InnoDB: Setting file 'C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-08-24  8:38:07 0 [Note] InnoDB: File 'C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ibtmp1' size is now 12 MB.
+2019-08-24  8:38:07 0 [Note] InnoDB: Waiting for purge to start
+2019-08-24  8:38:07 0 [Note] InnoDB: 10.3.17 started; log sequence number 4808389; transaction id 2452
+2019-08-24  8:38:07 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ib_buffer_pool
+2019-08-24  8:38:07 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-08-24  8:38:07 0 [Note] Server socket created on IP: '127.0.0.1'.
+2019-08-24  8:38:07 0 [Note] InnoDB: Buffer pool(s) load completed at 190824  8:38:07
+2019-08-24  8:38:07 0 [Note] Reading of all Master_info entries succeeded
+2019-08-24  8:38:07 0 [Note] Added new Master_info '' to hash table
+2019-08-24  8:38:07 0 [Note] C:\Users\Wisdom\Documents\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections.
+Version: '10.3.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-09-29 21:57:52 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-09-29 21:57:52 0 [Note] InnoDB: Uses event mutexes
+2019-09-29 21:57:52 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-09-29 21:57:52 0 [Note] InnoDB: Number of pools: 1
+2019-09-29 21:57:52 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-09-29 21:57:52 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2019-09-29 21:57:52 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-09-29 21:57:52 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=4968047
+2019-09-29 21:57:53 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-09-29 21:57:53 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-09-29 21:57:53 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-09-29 21:57:53 0 [Note] InnoDB: Setting file 'C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-09-29 21:57:53 0 [Note] InnoDB: File 'C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ibtmp1' size is now 12 MB.
+2019-09-29 21:57:53 0 [Note] InnoDB: Waiting for purge to start
+2019-09-29 21:57:53 0 [Note] InnoDB: 10.3.17 started; log sequence number 4968056; transaction id 2626
+2019-09-29 21:57:53 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ib_buffer_pool
+2019-09-29 21:57:53 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-09-29 21:57:53 0 [Note] InnoDB: Buffer pool(s) load completed at 190929 21:57:53
+2019-09-29 21:57:53 0 [Note] Server socket created on IP: '127.0.0.1'.
+2019-09-29 21:57:53 0 [Note] Reading of all Master_info entries succeeded
+2019-09-29 21:57:53 0 [Note] Added new Master_info '' to hash table
+2019-09-29 21:57:53 0 [Note] C:\Users\Wisdom\Documents\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections.
+Version: '10.3.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-09-30  5:09:57 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-09-30  5:09:57 0 [Note] InnoDB: Uses event mutexes
+2019-09-30  5:09:57 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-09-30  5:09:57 0 [Note] InnoDB: Number of pools: 1
+2019-09-30  5:09:57 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-09-30  5:09:57 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2019-09-30  5:09:57 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-09-30  5:09:57 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=6044576
+2019-09-30  5:09:58 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-09-30  5:09:58 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-09-30  5:09:58 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-09-30  5:09:58 0 [Note] InnoDB: Setting file 'C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-09-30  5:09:58 0 [Note] InnoDB: File 'C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ibtmp1' size is now 12 MB.
+2019-09-30  5:09:58 0 [Note] InnoDB: 10.3.17 started; log sequence number 6044618; transaction id 3569
+2019-09-30  5:09:58 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Wisdom\Documents\UniServerZ\core\mysql\data\ib_buffer_pool
+2019-09-30  5:09:58 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-09-30  5:09:58 0 [Note] InnoDB: Buffer pool(s) load completed at 190930  5:09:58
+2019-09-30  5:09:58 0 [Note] Server socket created on IP: '127.0.0.1'.
+2019-09-30  5:09:58 0 [Note] Reading of all Master_info entries succeeded
+2019-09-30  5:09:58 0 [Note] Added new Master_info '' to hash table
+2019-09-30  5:09:58 0 [Note] C:\Users\Wisdom\Documents\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections.
+Version: '10.3.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-10-12 14:01:18 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-12 14:01:18 0 [Note] InnoDB: Uses event mutexes
+2019-10-12 14:01:18 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-12 14:01:18 0 [Note] InnoDB: Number of pools: 1
+2019-10-12 14:01:18 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-12 14:01:18 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2019-10-12 14:01:18 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-12 14:01:18 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=6542934
+2019-10-12 14:01:19 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-12 14:01:19 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-12 14:01:19 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-12 14:01:19 0 [Note] InnoDB: Setting file 'C:\Users\Wisdom\Documents\Hackathon\UniServerZ\core\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-12 14:01:19 0 [Note] InnoDB: File 'C:\Users\Wisdom\Documents\Hackathon\UniServerZ\core\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-12 14:01:19 0 [Note] InnoDB: Waiting for purge to start
+2019-10-12 14:01:19 0 [Note] InnoDB: 10.3.17 started; log sequence number 6542943; transaction id 3741
+2019-10-12 14:01:19 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Wisdom\Documents\Hackathon\UniServerZ\core\mysql\data\ib_buffer_pool
+2019-10-12 14:01:19 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-12 14:01:19 0 [Note] InnoDB: Buffer pool(s) load completed at 191012 14:01:19
+2019-10-12 14:01:19 0 [Note] Server socket created on IP: '127.0.0.1'.
+2019-10-12 14:01:19 0 [ERROR] Can't start server: Bind on TCP/IP port. Got error: 10013: An attempt was made to access a socket in a way forbidden by its access permissions.
+
+2019-10-12 14:01:19 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2019-10-12 14:01:19 0 [ERROR] Aborting
+
+2019-10-12 14:04:15 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-12 14:04:15 0 [Note] InnoDB: Uses event mutexes
+2019-10-12 14:04:15 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-12 14:04:15 0 [Note] InnoDB: Number of pools: 1
+2019-10-12 14:04:15 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-12 14:04:15 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2019-10-12 14:04:15 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-12 14:04:15 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-12 14:04:15 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-12 14:04:15 0 [Note] InnoDB: Setting file 'C:\Users\Wisdom\Documents\Hackathon\UniServerZ\core\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-12 14:04:15 0 [Note] InnoDB: File 'C:\Users\Wisdom\Documents\Hackathon\UniServerZ\core\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-12 14:04:15 0 [Note] InnoDB: 10.3.17 started; log sequence number 6542952; transaction id 3741
+2019-10-12 14:04:15 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Wisdom\Documents\Hackathon\UniServerZ\core\mysql\data\ib_buffer_pool
+2019-10-12 14:04:15 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-12 14:04:15 0 [Note] Server socket created on IP: '127.0.0.1'.
+2019-10-12 14:04:15 0 [ERROR] Can't start server: Bind on TCP/IP port. Got error: 10013: An attempt was made to access a socket in a way forbidden by its access permissions.
+
+2019-10-12 14:04:15 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2019-10-12 14:04:15 0 [ERROR] Aborting
+
+2019-10-12 14:14:26 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-12 14:14:26 0 [Note] InnoDB: Uses event mutexes
+2019-10-12 14:14:26 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-12 14:14:26 0 [Note] InnoDB: Number of pools: 1
+2019-10-12 14:14:26 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-12 14:14:26 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2019-10-12 14:14:26 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-12 14:14:26 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-12 14:14:26 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-12 14:14:26 0 [Note] InnoDB: Setting file 'C:\Users\Wisdom\Documents\Hackathon\UniServerZ\core\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-12 14:14:26 0 [Note] InnoDB: File 'C:\Users\Wisdom\Documents\Hackathon\UniServerZ\core\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-12 14:14:26 0 [Note] InnoDB: 10.3.17 started; log sequence number 6542961; transaction id 3741
+2019-10-12 14:14:26 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Wisdom\Documents\Hackathon\UniServerZ\core\mysql\data\ib_buffer_pool
+2019-10-12 14:14:26 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-12 14:14:26 0 [Note] InnoDB: Buffer pool(s) load completed at 191012 14:14:26
+2019-10-12 14:14:26 0 [Note] Server socket created on IP: '127.0.0.1'.
+2019-10-12 14:14:26 0 [ERROR] Can't start server: Bind on TCP/IP port. Got error: 10013: An attempt was made to access a socket in a way forbidden by its access permissions.
+
+2019-10-12 14:14:26 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2019-10-12 14:14:26 0 [ERROR] Aborting
+
+2019-10-12 14:18:47 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-12 14:18:47 0 [Note] InnoDB: Uses event mutexes
+2019-10-12 14:18:47 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-12 14:18:47 0 [Note] InnoDB: Number of pools: 1
+2019-10-12 14:18:47 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-12 14:18:47 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2019-10-12 14:18:47 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-12 14:18:48 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-12 14:18:48 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-12 14:18:48 0 [Note] InnoDB: Setting file 'C:\Users\Wisdom\Documents\Hackathon\UniServerZ\core\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-12 14:18:48 0 [Note] InnoDB: File 'C:\Users\Wisdom\Documents\Hackathon\UniServerZ\core\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-12 14:18:48 0 [Note] InnoDB: Waiting for purge to start
+2019-10-12 14:18:48 0 [Note] InnoDB: 10.3.17 started; log sequence number 6542970; transaction id 3741
+2019-10-12 14:18:48 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Wisdom\Documents\Hackathon\UniServerZ\core\mysql\data\ib_buffer_pool
+2019-10-12 14:18:48 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-12 14:18:48 0 [Note] Server socket created on IP: '127.0.0.1'.
+2019-10-12 14:18:48 0 [Note] InnoDB: Buffer pool(s) load completed at 191012 14:18:48
+2019-10-12 14:18:48 0 [Note] Reading of all Master_info entries succeeded
+2019-10-12 14:18:48 0 [Note] Added new Master_info '' to hash table
+2019-10-12 14:18:48 0 [Note] C:\Users\Wisdom\Documents\Hackathon\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections.
+Version: '10.3.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-10-12 14:25:49 65 [Warning] Access denied for user 'username'@'127.0.0.1' to database 'myDB'
+2019-10-12 14:25:59 66 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-10-12 14:26:30 69 [Warning] Access denied for user 'username'@'127.0.0.1' to database 'myDB'
+2019-10-12 14:42:51 91 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
