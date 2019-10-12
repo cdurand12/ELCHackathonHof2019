@@ -18,7 +18,7 @@ public class query {
         try {
 
             String s = "select * from products";
-            String x[] = querydb(s, "products");
+            ArrayList<ArrayList<String>> x = querydb(s, "products");
 //            for (int i = 0; i < x.length; i++) {
 //                System.out.println(x[i]);
 //            }
@@ -31,7 +31,7 @@ public class query {
 Pass your sql query as a String[] with each space represented as new element in the array
 For example to call 'describe products', pass query({"describe", "products");
  */
-public static String[] querydb(String qInput, String tableName) throws Exception {
+public static ArrayList<ArrayList<String>> querydb(String qInput, String tableName) throws Exception {
     //https://stackoverflow.com/questions/5711084/java-runtime-getruntime-getting-output-from-executing-a-command-line-program
     //https://stackoverflow.com/questions/5711084/java-runtime-getruntime-getting-output-from-executing-a-command-line-program
     String[] q = qInput.split("\\s+");
@@ -77,26 +77,25 @@ public static String[] querydb(String qInput, String tableName) throws Exception
 
     ArrayList<ArrayList<String>> trash = new ArrayList<>();
 
-    int sz = databaseSizeMap.get(tableName);
-    int g = 0;
+    int sz = databaseSizeMap.get(tableName) + 1;
     int w = 0;
 
-    trash.add(new ArrayList<String>());
-    for (int i = 1; i < arr.length; i++) {
-        if (i % sz == 0){
-            g++;
-            trash.add(new ArrayList<>());
-        }
-        trash.get(g).add(arr[i]);
-        w++;
-    }
+    for(int i = 0; i < (arr.length / sz); i++){
+        trash.add(new ArrayList<>());
 
+        for(int g = 0; g < sz; g++){
+            trash.get(i).add(arr[(i*sz) + g]);
+        }
+    }
+    //System.out.println(trash.get(0).size());
     for (int v = 0; v < trash.size(); v++) {
-        for (int b = 0; b < trash.get(0).size(); b++) {
-            System.out.println(trash.get(v).get(b));
+    //    System.out.print(trash.get(v).size());
+        for (int b = 0; b < trash.get(v).size(); b++) {
+           System.out.print(trash.get(v).get(b) + "\t");
         }
+        System.out.println();
     }
 
-    return arr;
+    return trash;
     }
 }
