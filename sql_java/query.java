@@ -2,13 +2,26 @@ package sql_java;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashMap;
+
 
 public class query {
+
+    public static HashMap<String, Integer> databaseSizeMap = new HashMap<>(); //database, size
     public static void main(String[] args) {
+
+        databaseSizeMap.put("products", 5);
+        databaseSizeMap.put("tags", 2);
+        databaseSizeMap.put("ingredients", 3);
+
         try {
 
-            String s = "select * from product";
-            query(s);
+            String s = "select * from products";
+            String x[] = querydb(s, "products");
+//            for (int i = 0; i < x.length; i++) {
+//                System.out.println(x[i]);
+//            }
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -18,7 +31,7 @@ public class query {
 Pass your sql query as a String[] with each space represented as new element in the array
 For example to call 'describe products', pass query({"describe", "products");
  */
-public static String[] query(String qInput) throws Exception {
+public static String[] querydb(String qInput, String tableName) throws Exception {
     //https://stackoverflow.com/questions/5711084/java-runtime-getruntime-getting-output-from-executing-a-command-line-program
     //https://stackoverflow.com/questions/5711084/java-runtime-getruntime-getting-output-from-executing-a-command-line-program
     String[] q = qInput.split("\\s+");
@@ -34,7 +47,6 @@ public static String[] query(String qInput) throws Exception {
 
 
     for (int i = 0; i < q.length; i++) {
-        System.out.println(q[i]);
         runtimeArgs[7 + i] = q[i];
     }
     runtimeArgs[runtimeArgs.length - 1] = "\"";
@@ -52,11 +64,39 @@ public static String[] query(String qInput) throws Exception {
 
     String temp = "";
     String sqlOutput = "";
+    int j = 1;
     while ((temp = output.readLine()) != null){
-        System.out.println(temp);
         sqlOutput += temp;
+        sqlOutput += "\n";
 
+        if (j % databaseSizeMap.get(tableName) == 0) sqlOutput += "\t";
+        j++;
     }
-    return sqlOutput.split("\\s+");
+    String arr[] = sqlOutput.split("\\s+");
+
+
+    ArrayList<ArrayList<String>> trash = new ArrayList<>();
+
+    int sz = databaseSizeMap.get(tableName);
+    int g = 0;
+    int w = 0;
+
+    trash.add(new ArrayList<String>());
+    for (int i = 1; i < arr.length; i++) {
+        if (i % sz == 0){
+            g++;
+            trash.add(new ArrayList<>());
+        }
+        trash.get(g).add(arr[i]);
+        w++;
+    }
+
+    for (int v = 0; v < trash.size(); v++) {
+        for (int b = 0; b < trash.get(0).size(); b++) {
+            System.out.println(trash.get(v).get(b));
+        }
+    }
+
+    return arr;
     }
 }
