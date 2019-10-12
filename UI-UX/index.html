@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>s
 <html lang="en">
 
 <head>
@@ -24,26 +24,18 @@
 
     <script>
 
-        function test() {
+        function searchOnClick() {
             alert("Start of Function");
 
-            var rowCount = 3;
-
             var container = document.getElementById("row1");
-
-            for (var i = 1; i < rowCount; i++) {
 
                 var el = document.createElement("div");
                 el.className = "card";
                 el.id = "card" + i;
                 el.innerHTML = "ok";
                 container.append(el);
-            }
         }
 
-        function buttonOnClick() {
-
-        }
 
     </script>
 
@@ -85,7 +77,7 @@
                             </div>
                             <div class="col-12 col-md-3">
                                 <button type="submit" class="btn btn-block btn-lg btn-primary"
-                                    onclick="test()">Search</button>
+                                    onclick="searchOnClick()">Search</button>
                             </div>
                         </div>
                         <div class="brn-group" role="group" aria-label="Basic example">
@@ -128,73 +120,6 @@
                 </div>
             </div>
 
-            <div id="row2" class="row">
-                <div class="col-lg-4" id=21>
-
-                </div>
-                <div class="col-lg-4" id=22>
-
-                </div>
-
-            </div>
-
-            <div id="row3" class="row">
-                <div class="col-lg-4">
-
-                </div>
-            </div>
-
-
-            <!-- JavaScript  -->
-            <div class="row">
-                <div class="col-lg-4">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Testimonials -->
     <section class="testimonials text-center bg-light">
         <div class="container">
@@ -211,7 +136,7 @@
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                         <img class="img-fluid rounded-circle mb-3" src="img/IMAGE000000.jpeg" alt="">
                         <h5>Travis C.</h5>
-                        <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of
+                        <p class="font-weight-light mb-0">"Estee Lauder is amazing. I've been using their facial cream lots and its
                             super nice
                             landing pages."</p>
                     </div>
