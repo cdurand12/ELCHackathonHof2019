@@ -1,4 +1,4 @@
-//package sql_java;
+package sql_java;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -75,27 +75,27 @@ public static ArrayList<ArrayList<String>> querydb(String qInput, String tableNa
     String arr[] = sqlOutput.split("\\s+");
 
 
-    ArrayList<ArrayList<String>> trash = new ArrayList<>();
+    ArrayList<ArrayList<String>> database2DArray = new ArrayList<>();
 
     int sz = databaseSizeMap.get(tableName) + 1;
     int w = 0;
 
     for(int i = 0; i < (arr.length / sz); i++){
-        trash.add(new ArrayList<>());
+        database2DArray.add(new ArrayList<>());
 
         for(int g = 0; g < sz; g++){
-            trash.get(i).add(arr[(i*sz) + g]);
+            database2DArray.get(i).add(arr[(i*sz) + g]);
         }
     }
-    //System.out.println(trash.get(0).size());
-    for (int v = 0; v < trash.size(); v++) {
-    //    System.out.print(trash.get(v).size());
-        for (int b = 0; b < trash.get(v).size(); b++) {
-           System.out.print(trash.get(v).get(b) + "\t");
+    //System.out.println(database2DArray.get(0).size());
+    for (int v = 0; v < database2DArray.size(); v++) {
+    //    System.out.print(database2DArray.get(v).size());
+        for (int b = 0; b < database2DArray.get(v).size(); b++) {
+           System.out.print(database2DArray.get(v).get(b) + "\t");
         }
         System.out.println();
     }
 
-    return trash;
+    return database2DArray;
     }
 }
