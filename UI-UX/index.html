@@ -60,7 +60,17 @@
     <nav class="navbar sticky-top navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Estee Lauder</a>
-
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Product Categories
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" id="btn_lip" onclick="searchSel(1)" href="#">Lip Stick</a>
+                    <a class="dropdown-item" id="btn_fon" onclick="searchSet(2)" href="#">Foundation</a>
+                    <a class="dropdown-item" id="btn_eye" onclick="searchSet(3)" href="#">Eye Shadow</a>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -76,23 +86,9 @@
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                     <form>
                         <div class="form-row">
-                            <div class="col-12 col-md-9 mb-2 mb-md-0">
-                                <input id="searchELC" type="text" class="form-control form-control-lg"
-                                    placeholder="Search for a Product...">
-                            </div>
-                            <div class="col-12 col-md-3">
-                                <button type="submit" class="btn btn-block btn-lg btn-primary"
-                                    onclick="searchOnClick()">Search</button>
-                            </div>
+
                         </div>
-                        <div class="brn-group" role="group" aria-label="Basic example">
-                            <button id="btn_lip" type="button" class="btn btn-secondary" onclick="searchSel(1)">Lip
-                                Stick</button>
-                            <button id="btn_fon" type="button" class="btn btn-secondary"
-                                onclick="searchSel(2)">Foundation</button>
-                            <button id="btn_eye" type="button" class="btn btn-secondary" onclick="searchSel(3)">Eye
-                                Shadow</button>
-                        </div>
+
                     </form>
                 </div>
             </div>
