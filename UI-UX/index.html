@@ -22,10 +22,32 @@
     <!-- Custom styles for this template -->
     <link href="css/landing-page.min.css" rel="stylesheet">
 
+    <script>
+
+
+
+        function test() {
+            alert("Start of Function");
+
+            var rowCount = 3;
+
+            var container = document.getElementById("row1");
+
+            for (var i = 1; i < rowCount; i++) {
+
+                var el = document.createElement("div");
+                el.className = "card";
+                el.id = "card" + i;
+                el.innerHTML = "ok";
+                container.append(el);
+            }
+        }
+
+    </script>
+
 </head>
 
 <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-light bg-light static-top">
         <div class="container">
@@ -59,7 +81,8 @@
                                 <input type="email" class="form-control form-control-lg" placeholder="Search...">
                             </div>
                             <div class="col-12 col-md-3">
-                                <button type="submit" class="btn btn-block btn-lg btn-primary">Search</button>
+                                <button type="submit" class="btn btn-block btn-lg btn-primary"
+                                    onclick="test()">Search</button>
                             </div>
                         </div>
                     </form>
@@ -71,6 +94,48 @@
     <!-- Icons Grid -->
     <section class="features-icons bg-light text-center">
         <div class="container">
+
+            <div id="row1" class=row>
+                <div class="col-lg-4" id=11>
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4" id=12>
+                    <div class="card">
+
+                    </div>
+                </div>
+                <div class="col-lg-4" id=13>
+
+                </div>
+            </div>
+
+            <div id="row2" class="row">
+                <div class="col-lg-4" id=21>
+
+                </div>
+                <div class="col-lg-4" id=22>
+
+                </div>
+
+            </div>
+
+            <div id="row3" class="row">
+                <div class="col-lg-4">
+
+                </div>
+            </div>
+
 
             <!-- JavaScript  -->
             <div class="row">
@@ -136,8 +201,8 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                        <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-                        <h5>Fred S.</h5>
+                        <img class="img-fluid rounded-circle mb-3" src="img/IMAGE000000.jpeg" alt="">
+                        <h5>Travis C.</h5>
                         <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of
                             super nice
                             landing pages."</p>
@@ -230,6 +295,12 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
 
 </body>
 
