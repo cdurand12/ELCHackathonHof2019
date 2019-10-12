@@ -13,7 +13,10 @@ public class query {
         }
 
     }
-
+/*
+Pass your sql query as a String[] with each space represented as new element in the array
+For example to call 'describe products', pass query({"describe", "products");
+ */
 public static void query(String[] q) throws Exception {
     //https://stackoverflow.com/questions/5711084/java-runtime-getruntime-getting-output-from-executing-a-command-line-program
     String[] runtimeArgs = new String[q.length + 5];
