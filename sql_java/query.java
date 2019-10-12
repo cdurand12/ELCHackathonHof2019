@@ -1,4 +1,4 @@
-package sql_java;
+//package sql_java;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -25,7 +25,7 @@ public class query {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
+        System.out.println("DONE BRAH");
     }
 /*
 Pass your sql query as a String[] with each space represented as new element in the array
