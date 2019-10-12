@@ -24,7 +24,7 @@
 
     <script>
 
-        var stuff = "<h1> TEST1 </h1>";
+
 
         function test() {
             //var para = document.createElement("div")
@@ -33,18 +33,26 @@
             //var cardContainer = document.createElement("div");
 
             //var card = "<div class=row> <div class=card style=width: 18rem;><img src=... class=card-img-top alt=...><div class=card-body><h5 class=card-title>Card title</h5><p class=card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</p><a href=# class=btn btn-primary>Go somewhere</a></div></div></div>";
-            alert("step 1");
+            //alert("step 1");
 
-            document.getElementById("myDIV").classList.add("card");
+            //document.getElementById("myDIV").classList.add("card");
 
 
-            alert("step 2")
+            //alert("step 2")
             //card.classList.add("card")
             //para.appendChild(node);
             //var element = document.getElementById("test1");
             //element.appendChild(cardContainer);
             //element.appendChild(card);
-
+            var container = document.getElementById("container");
+            for( var i=1;i <=9; i++)
+            {
+	             var el = document.createElement("div");
+               el.className ="card";
+               el.id = "card" + i;
+               el.innerHTML = "ok";
+               container.append(el);
+             }
         }
 
     </script>
@@ -52,7 +60,7 @@
 </head>
 
 <body>
-    <div id="myDIV">
+    <div id="container">
 
     </div>
     <!-- Navigation -->
