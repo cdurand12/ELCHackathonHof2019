@@ -36,21 +36,21 @@
             container.append(el);
         }
 
-    function searchSel(n){
-        if (n == 1) {
-            jQuery(".card_lip").show();
-            jQuery(".card_fon").hide();
-            jQuery(".card_eye").hide();
-         }else if (n == 1) {
-            jQuery(".card_lip").hide();
-            jQuery(".card_fon").show();
-            jQuery(".card_eye").hide();
-         }else {
-            jQuery(".card_lip").hide();
-            jQuery(".card_fon").hide();
-            jQuery(".card_eye").show();
-         }
-    }
+        function searchSel(n) {
+            if (n == 1) {
+                jQuery(".card_lip").show();
+                jQuery(".card_fon").hide();
+                jQuery(".card_eye").hide();
+            } else if (n == 1) {
+                jQuery(".card_lip").hide();
+                jQuery(".card_fon").show();
+                jQuery(".card_eye").hide();
+            } else {
+                jQuery(".card_lip").hide();
+                jQuery(".card_fon").hide();
+                jQuery(".card_eye").show();
+            }
+        }
     </script>
 
 </head>
@@ -96,9 +96,12 @@
                             </div>
                         </div>
                         <div class="brn-group" role="group" aria-label="Basic example">
-                            <button id="btn_lip" type="button" class="btn btn-secondary" onclick="searchSel(1)">Lip Stick</button>
-                            <button id="btn_fon"  type="button" class="btn btn-secondary" onclick="searchSel(2)">Foundation</button>
-                            <button  id="btn_eye" type="button" class="btn btn-secondary" onclick="searchSel(3)">Eye Shadow</button>
+                            <button id="btn_lip" type="button" class="btn btn-secondary" onclick="searchSel(1)">Lip
+                                Stick</button>
+                            <button id="btn_fon" type="button" class="btn btn-secondary"
+                                onclick="searchSel(2)">Foundation</button>
+                            <button id="btn_eye" type="button" class="btn btn-secondary" onclick="searchSel(3)">Eye
+                                Shadow</button>
                         </div>
                     </form>
                 </div>
