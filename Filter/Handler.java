@@ -1,5 +1,8 @@
+package Filter;
+
 import java.util.*;
 
+import Filter.Filter;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
