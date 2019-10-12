@@ -1,0 +1,24 @@
+SELECT * FROM products
+SELECT * FROM products LIKE '[SEARCHTERM]%';
+
+SELECT * FROM products LIKE '[SEARCHTERM]%' AND catogoryId=[CATID];
+SELECT * FROM ingredient WHERE ingredientId=[NAMEID]; 
+SELECT * FROM tags WHERE tagId=[NAMEID];
+
+
+CREATE TABLE categories(
+    catId int not null  auto_increment primary key,
+    catName varchar(255)
+);
+
+
+INSERT INTO categories(catId, catName)
+VALUES (null, "Lip Stick"); 
+
+INSERT INTO categories(catId, catName)
+VALUES (null, "Foundation");
+
+INSERT INTO categories(catId, catName)
+VALUES (null, "Eye Shadow");
+
+
